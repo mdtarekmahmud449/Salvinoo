@@ -35,6 +35,7 @@
 .logoImage{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .logoImage>h1{
@@ -97,3 +98,45 @@
     transform: translateX(-50%) scale(1);
     -webkit-transform: translateX(-50%) scale(1);
 } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 991px){
+    .menuList{
+        padding: 0px 0px;
+    }
+    .menuLink{
+        font-size: 1.5em;
+    }
+}
+@media only screen and (max-width: 800px){
+    
+}
+@media only screen and (max-width: 768px){
+    
+}
+@media only screen and (max-width: 578px){
+    
+}
+@media only screen and (max-width: 411px){
+    
+}
