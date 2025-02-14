@@ -99,15 +99,22 @@
     -webkit-transform: translateX(-50%) scale(1);
 } */
 
+img {vertical-align: middle;}
 
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  display: block;
+  justify-content: center;
+  max-height: 500px;
+  margin-bottom: 40px;
+}
 
-
-
-
-
-
-
-
+.slideshow-container img{
+    max-height: 500px;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
 
 
 
