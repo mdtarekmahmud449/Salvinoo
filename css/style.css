@@ -26,6 +26,9 @@
     --main: rgb(3 9 13);
 }
 
+body{
+    background-color: #0D0C0C;
+}
 .logoHeader{
     min-height: 0px;
     width: 100%;
@@ -103,23 +106,59 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 100%;
+  width: 100%;
   display: block;
-  justify-content: center;
   max-height: 500px;
-  margin-bottom: 40px;
+  box-sizing: border-box;
 }
 
 .slideshow-container img{
+    width: 100% !important;
     max-height: 500px;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: auto;
+    
 }
 
 
 
+.featureBody{
+    width: 100%;
+    background-color: #2E2E2E;
+    color: var(--white);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    margin-top: -17px;
+}
+.seriesHeader{
+    font-size: 2.6em;
+    font-family: var(--normalFont);
+    width: 100%;
+}
+.seriesBottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.seriesBottom::after{
+    content: "";
+    width: 150px;
+    margin-left: 185px;
+    position: absolute;
+    border: 2px solid rgba(234, 179, 14, 0.667);
+}
 
+.seriesBottom::before{
+    content: "";
+    width: 150px;
+    margin-right: 185px;
+    position: absolute;
+    border: 2px solid rgba(234, 179, 14, 0.667);
+}
 
 
 
@@ -134,6 +173,9 @@ img {vertical-align: middle;}
     .menuLink{
         font-size: 1.5em;
     }
+    .slideshow-container{
+        width: 104%;
+      }
 }
 @media only screen and (max-width: 800px){
     
